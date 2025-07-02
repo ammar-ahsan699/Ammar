@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ammar Ahsan - Web Designer</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: #fff;
+      padding: 20px;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      color: #00ffcc;
+      text-shadow: 2px 2px #000;
+    }
+
+    h2 {
+      font-size: 1.8rem;
+      margin-top: 30px;
+      color: #ffcc00;
+      text-shadow: 1px 1px #000;
+    }
+
+    ul {
+      list-style-type: none;
+      margin-top: 20px;
+      padding: 0;
+    }
+
+    li {
+      margin: 10px 0;
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
+
+    li span.label {
+      font-weight: bold;
+      color: #00ccff;
+      font-family: 'Courier New', monospace;
+    }
+
+    li span.text {
+      color: #ffdfba;
+      font-style: italic;
+    }
+
+    .work-list {
+      margin-top: 20px;
+      background-color: rgba(255, 255, 255, 0.1);
+      padding: 15px;
+      border-radius: 10px;
+    }
+
+    .work-list li {
+      font-size: 1.2rem;
+      padding: 5px;
+    }
+
+    .contact-note {
+      margin-top: 10px;
+      color: #90ee90;
+      font-weight: bold;
+    }
+
+    .links {
+      margin-top: 30px;
+    }
+
+    .links a {
+      display: inline-block;
+      margin: 10px;
+      padding: 10px 15px;
+      color: #fff;
+      background: #0077ff;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: all 0.3s;
+    }
+
+    .links a:hover {
+      background-color: #00ffaa;
+      color: #000;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 50px;
+      padding: 15px;
+      font-size: 0.9rem;
+      background-color: rgba(255, 255, 255, 0.1);
+      border-radius: 10px;
+    }
+
+    .learn-more-btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 15px;
+      background: #ff00ff;
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    .learn-more-btn:hover {
+      background: #cc00cc;
+    }
+
+    .page {
+      display: none;
+    }
+
+    .active {
+      display: block;
+    }
+
+    .back-btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 15px;
+      background: #ff4d4d;
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    .back-btn:hover {
+      background: #ff1a1a;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- PAGE 1 -->
+  <div id="page1" class="page active">
+    <header>
+      <h1>Ammar Ahsan - The Web Designer and Content Writer</h1>
+      <h2>About Me</h2>
+    </header>
+
+    <ul>
+      <li><span class="label">My Background:</span> <span class="text">I am an experienced web designer and an educated man. My family supports me in every situation.</span></li>
+      <li><span class="label">My Skills:</span> <span class="text">HTML, CSS, JavaScript, and creative content writing. I create what people never imagined—and they love it!</span></li>
+      <li><span class="label">Fun Fact:</span> <span class="text">I once made a full website in under 2 hours—and the client thought it took a week!</span></li>
+    </ul>
+
+    <button class="learn-more-btn" onclick="goToPage2()">Learn more</button>
+
+    <div class="work-list">
+      <h2>I work at</h2>
+      <ul>
+        <li>1. Fiverr</li>
+        <li>2. Upwork</li>
+        <li>3. Freelancer</li>
+        <li>4. YouTube</li>
+        <li>5. Facebook</li>
+        <li>6. TikTok</li>
+      </ul>
+      <div class="contact-note">You can contact me there</div>
+    </div>
+
+    <div class="links">
+      <a href="https://www.youtube.com/@UniverseKing708" target="_blank">My YouTube</a>
+      <a href="https://www.tiktok.com/@neutron.king" target="_blank">My TikTok</a>
+      <a href="https://www.facebook.com/share/1Lu8fkdbCp/" target="_blank">My Facebook</a>
+    </div>
+
+    <footer>
+      &copy; 2025 Ammar Ahsan. All Rights Reserved.
+    </footer>
+  </div>
+
+
+
+
+  <!-- PAGE 2 -->
+  <div id="page2" class="page active">
+    <h1>More About Me</h1>
+
+    <p>
+      I am a passionate Pakistani web developer with years of hands-on experience. Despite being only 14 years old, I’ve built powerful websites and written compelling content. What makes me stand out is not just my skills, but the amazing team I work with. They are loyal, supportive, and hardworking—together we craft digital experiences that perform and shine.
+    </p>
+
+    <h2>More</h2>
+
+    <div class="info-box">
+      <div class="info-item"><span class="label">Name:</span> <span class="text">Syed Ammar Ahsan</span></div>
+      <div class="info-item"><span class="label">Education:</span> <span class="text">Max Collegiate</span></div>
+      <div class="info-item"><span class="label">Age:</span> <span class="text">14 years old</span></div>
+      <div class="info-item"><span class="label">Family:</span> <span class="text">An extremely loving and supportive family. I thank Almighty Allah for blessing me with them.</span></div>
+      <div class="info-item"><span class="label">Hobbies:</span> <span class="text">Freelancing is my passion and hobby—I love what I do!</span></div>
+      <div class="info-item"><span class="label">Work:</span> <span class="text">I provide web design services on Fiverr, Upwork, and Freelancer.</span></div>
+      <div class="info-item"><span class="label">YouTube Channel:</span> <span class="text">I proudly run a channel with over 1,500 subscribers. Don’t forget to subscribe—amazing content is coming soon!</span></div>
+    </div>
+
+    <div class="quote">“Your dream website is just one click away – Let's build it together.”</div>
+
+    <div class="seo-tagline">
+      Ammar Ahsan is a well-educated and highly experienced web designer & content creator from Pakistan.
+    </div>
+
+    <button class="back-btn" onclick="goToPage1()">← Back to Home</button>
+
+    <footer>
+      &copy; 2025 Ammar Ahsan. All Rights Reserved. Crafted with ❤️ in Pakistan.
+    </footer>
+  </div>
+
+  <script>
+    function goToPage2() {
+      document.getElementById("page1").classList.remove("active");
+      document.getElementById("page2").classList.add("active");
+    }
+
+    function goToPage1() {
+      document.getElementById("page2").classList.remove("active");
+      document.getElementById("page1").classList.add("active");
+    }
+  </script>
+
+</body>
+</html>
+
